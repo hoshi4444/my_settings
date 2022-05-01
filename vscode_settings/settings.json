@@ -1,0 +1,136 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "editor.minimap.enabled": true,
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestionsDelay": 500,
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+      "jsx": {
+          "self_closing_tag": true
+      }
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.renderControlCharacters": true,
+  "[python]": {
+      "editor.tabSize": 4,
+  },
+  "editor.largeFileOptimizations": false,
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.maxMemoryForLargeFilesMB": 6144,
+  "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoGuessEncoding": true,
+  "workbench.colorCustomizations": {
+      "editor.lineHighlightBackground": "#404040"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editorAssociations": {
+      "*.png": "hediet.vscode-drawio",
+      "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "glassit.alpha": 245,
+  "liveSassCompile.settings.formats": [ //Sassの出力内容の設定
+      {
+        "format": "expanded", //nested、compact、compressedのどれかを選ぶ
+        "extensionName": ".css", //style.cssとして出力
+        "savePath": "/css"
+      }
+  ],
+  "liveSassCompile.settings.excludeList": [ //対象外とするフォルダを指定
+  "**/node_modules/**",
+  ".vscode/**",
+  ".history/**"
+  ],
+  "liveSassCompile.settings.autoprefix": [],
+  "vim.insertModeKeyBindings": [
+      {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+      }
+  ],
+  "vim.hlsearch": true,
+  "vim.foldfix": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "[vue]": {
+      "editor.tabSize": 4,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "johnsoncodehk.volar"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": false
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "XXX",
+      "[ ]",
+      "[x]",
+      "[jetstream]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "window.newWindowDimensions": "maximized",
+  "tailwindCSS.includeLanguages": {
+      "plaintext": "vue"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "hediet.vscode-drawio.codeLinkActivated": true,
+  "workbench.startupEditor": "none",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.cursorStyle": "line",
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "vetur.format.defaultFormatterOptions": {
+      "prettier": {
+          "printWidth": 80
+      }
+  },
+  "[php]": {
+      "cSpell.fixSpellingWithRenameProvider": false
+  },
+  "vim.statusBarColorControl": false,
+  "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/vendor/**": true
+  },
+  "[bat]": {
+  
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.inheritEnv": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+  },
+  "volar.codeLens.scriptSetupTools": true,
+  "workbench.editor.enablePreview": false,
+  "cSpell.userWords": [
+      "Vuetify"
+  ]
+}

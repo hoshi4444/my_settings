@@ -1,0 +1,15 @@
+# keymapping
+map h goBack
+map y goForward
+map l goForward
+map H previousTab
+map J nextTab
+map n scrollPageDown
+map m scrollPageUp
+map M performFind
+map i LinkHints.activateMode
+map I LinkHints.activateModeToOpenInNewTab
+map y LinkHints.activateModeToCopyLinkUrl
+map D duplicateTab
+unmap >>
+unmap <<

@@ -1,0 +1,71 @@
+#!/bin/sh
+
+echo "VSCodeの拡張機能をインストール"
+
+code --install-extension abusaidm.html-snippets
+code --install-extension alefragnani.Bookmarks
+code --install-extension alefragnani.project-manager
+code --install-extension amiralizadeh9480.laravel-extra-intellisense
+code --install-extension bmewburn.vscode-intelephense-client
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension chrmarti.regex
+code --install-extension codingyu.laravel-goto-view
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
+code --install-extension dtoplak.vscode-glsllint
+code --install-extension dzhavat.css-flexbox-cheatsheet
+code --install-extension eamodio.gitlens
+code --install-extension ecmel.vscode-html-css
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension Gruntfuggly.todo-tree
+code --install-extension hediet.vscode-drawio
+code --install-extension humao.rest-client
+code --install-extension ionutvmi.path-autocomplete
+code --install-extension janisdd.vscode-edit-csv
+code --install-extension johnsoncodehk.volar
+code --install-extension karunamurti.haml
+code --install-extension KevinRose.vsc-python-indent
+code --install-extension mechatroner.rainbow-csv
+code --install-extension mhutchie.git-graph
+code --install-extension mohamedbenhida.laravel-intellisense
+code --install-extension mosapride.zenkaku
+code --install-extension mrmlnc.vscode-duplicate
+code --install-extension mrorz.language-gettext
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension MS-CEINTL.vscode-language-pack-ja
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode.mono-debug
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension naumovs.color-highlight
+code --install-extension njpwerner.autodocstring
+code --install-extension octref.vetur
+code --install-extension oderwat.indent-rainbow
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension rebornix.ruby
+code --install-extension ritwickdey.live-sass
+code --install-extension ritwickdey.LiveServer
+code --install-extension ryu1kn.partial-diff
+code --install-extension s-nlf-fh.glassit
+code --install-extension Shan.code-settings-sync
+code --install-extension shardulm94.trailing-spaces
+code --install-extension slevesque.shader
+code --install-extension stef-k.laravel-goto-controller
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension tomoki1207.vscode-input-sequence
+code --install-extension trixnz.go-to-method
+code --install-extension Unity.unity-debug
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vscode-snippet.snippet
+code --install-extension vscodevim.vim
+code --install-extension wingrunr21.vscode-ruby
+code --install-extension xabikos.JavaScriptSnippets
+code --install-extension xdebug.php-debug
+code --install-extension yzhang.markdown-all-in-one
+
+echo "インストール完了"
